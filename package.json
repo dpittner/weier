@@ -1,0 +1,19 @@
+{
+  "name": "weier",
+  "version": "1.0.0",
+  "description": "MQTT receiver for sensor platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aedes": "0.41.0",
+    "express": "4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-google": "0.14.0"
+  }
+}
