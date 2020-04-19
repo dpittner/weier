@@ -1,5 +1,13 @@
 {
   "port": 1883,
+  "auth" : {
+    "username":  "MQTT",
+    "password":  "KEB4UGCO8OLM3IJ7"
+  },
+  "influx": {
+    "database": "sensors",
+    "host": "localhost"
+  },
   "sensors": [
     { "id": "5C:CF:7F:B7:73:CD", "tag": "büro"}
   ]
