@@ -10,6 +10,7 @@ const logger = log4js.getLogger('index');
 
 nconf.argv({parseValues: true})
     .env({
+      separator: '_',
       parseValues: true,
       lowerCase: true,
     })
