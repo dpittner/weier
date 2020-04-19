@@ -1,0 +1,6 @@
+{
+  "port": 1883,
+  "sensors": [
+    { "id": "5C:CF:7F:B7:73:CD", "tag": "büro"}
+  ]
+}
