@@ -1,0 +1,11 @@
+/node_modules/
+/chart/
+/.git/
+/tests/
+/coverage/
+/.eslintrc.js
+/.gitignore
+/.github/
+/.travis.yml
+/LICENSE
+/README.md
