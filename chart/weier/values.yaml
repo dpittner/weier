@@ -1,0 +1,14 @@
+replicaCount: 1
+revisionHistoryLimit: 10
+image:
+  repository: docker.io/dpittner84/weier
+  tag: latest
+  pullPolicy: Always
+  secret: github
+
+service:
+  port: 1883
+  type: LoadBalancer
+
+influx:
+  host: influxdb
