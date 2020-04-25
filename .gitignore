@@ -1,6 +1,8 @@
 # Temp
 .DS_Store
 
+# Dev
+export
 # Logs
 logs
 *.log
@@ -41,4 +43,3 @@ jspm_packages
 .node_repl_history
 
 coverage/
-
