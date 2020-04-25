@@ -4,6 +4,12 @@
     "username":  "MQTT",
     "password":  "KEB4UGCO8OLM3IJ7"
   },
+  "cos": {
+    "endpoint": "https://s3.eu-de.cloud-object-storage.appdomain.cloud",
+    "bucket": "weier",
+    "LocationConstraint": "eu-de-standard",
+    "namingPattern": "raw/dayOfYear=%d/data.json"
+  },
   "influx": {
     "database": "sensors",
     "host": "localhost"

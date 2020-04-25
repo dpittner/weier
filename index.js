@@ -14,7 +14,8 @@ nconf.argv({parseValues: true})
       parseValues: true,
       lowerCase: true,
     })
-    .file({file: 'config/app.json'});
+    .file('defaults', 'config/app.json')
+    .file('development', 'config/app-local.json');
 
 nconf.required(['sensors', 'auth', 'influx', 'port']);
 

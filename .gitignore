@@ -3,6 +3,7 @@
 
 # Dev
 export
+**/app-local.json
 # Logs
 logs
 *.log

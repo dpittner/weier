@@ -37,3 +37,13 @@ spec:
         env:
           - name: INFLUX_HOST
             value: "influxdb"
+          - name: COS_SERVICEINSTANCEID
+            valueFrom:
+              secretKeyRef:
+                name: weier
+                key: serviceCrn
+          - name: COS_APIKEYID
+            valueFrom:
+              secretKeyRef:
+                name: weier
+                key: cosApikey
